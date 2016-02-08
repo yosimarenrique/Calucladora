@@ -60,4 +60,12 @@ public void Dividir15entre3(){
 
 }
 
+@Test
+public void Porcentaje20porcientode100(){
+	 
+	double porcentaje=cal.porcentaje(100.0, 20.0);
+	Assert.assertEquals(20.0, porcentaje);
+
+}
+
 }

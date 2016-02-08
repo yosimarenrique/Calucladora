@@ -3,7 +3,7 @@ package org.com.co.calcula;
 public class Calculadora {
 	
 	private double respuesta;
-	//private int limite;
+	
 	
 	public Calculadora() {
 	
@@ -33,6 +33,15 @@ public class Calculadora {
 	public double dividir(double n1, double n2){
 		
 		respuesta=n1/n2;
+		return respuesta;
+
+	}
+	
+	public double porcentaje(double n1, double valor){
+		
+		
+		double respuesta=(n1*valor)/100;
+	
 		return respuesta;
 
 	}
