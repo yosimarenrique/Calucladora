@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.com.co.test.CalculadoraTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-01-26T20:10:50" hostname="Yosimar-Valega" time="0.003">
+  <properties/>
+  <testcase name="Sumarsmastres" classname="org.com.co.test.CalculadoraTest" time="0.002"/>
+  <testcase name="Sumardosmastres" classname="org.com.co.test.CalculadoraTest" time="0.0"/>
+  <testcase name="Restar5menos3" classname="org.com.co.test.CalculadoraTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
