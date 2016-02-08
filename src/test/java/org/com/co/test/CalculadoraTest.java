@@ -8,15 +8,15 @@ import junit.framework.*;
 public class CalculadoraTest {
 
 
-	Calculadora cal=new Calculadora(100);
+	Calculadora cal=new Calculadora();
 	
 	@Test
 	public void Sumardosmastres(){
 		
 		
-		int suma=cal.sumar(2,8);
+		double suma=cal.sumar(2.0,8.0);
 		
-		Assert.assertEquals(10, suma);
+		Assert.assertEquals(10.0, suma);
 		
 	}
 	
@@ -25,9 +25,9 @@ public class CalculadoraTest {
 	public void Sumarsmastres(){
 		
 		
-		int suma=cal.sumar(4,8);
+		double suma=cal.sumar(4.0,8.0);
 		
-		Assert.assertEquals(12, suma);
+		Assert.assertEquals(12.0, suma);
 		
 	}
 
@@ -36,9 +36,9 @@ public class CalculadoraTest {
 public void Restar5menos3(){
 
 	
-	int resta=cal.restar(5,3);
+	double resta=cal.restar(5.0,3.0);
 	
-	Assert.assertEquals(2, resta);
+	Assert.assertEquals(2.0, resta);
 	
 }
 
