@@ -25,7 +25,8 @@ public class Calculadora {
 
 	public double multiplicar(double n1, double n2){
 		
-		return 0;
+		respuesta=n1*n2;
+		return respuesta;
 
 	}
 }

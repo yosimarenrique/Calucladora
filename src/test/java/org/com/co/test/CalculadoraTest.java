@@ -42,4 +42,13 @@ public void Restar5menos3(){
 	
 }
 
+@Test
+
+public void Multiplicar5por3(){
+ 
+	double multi=cal.multiplicar(5.0, 3.0);
+	Assert.assertEquals(15.0, multi);
+
+}
+
 }
