@@ -51,4 +51,13 @@ public void Multiplicar5por3(){
 
 }
 
+@Test
+
+public void Dividir15entre3(){
+ 
+	double dividir=cal.dividir(15.0, 3.0);
+	Assert.assertEquals(5.0, dividir);
+
+}
+
 }

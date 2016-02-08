@@ -29,4 +29,12 @@ public class Calculadora {
 		return respuesta;
 
 	}
+	
+	public double dividir(double n1, double n2){
+		
+		respuesta=n1/n2;
+		return respuesta;
+
+	}
+	
 }
